@@ -22,7 +22,7 @@ def load_plugins(plugin_name):
     load.logger = logging.getLogger(plugin_name)
     spec.loader.exec_module(load)
     sys.modules["AltBots.modules." + plugin_name] = load
-    print("Dark has Imported " + plugin_name)
+    print("Destroyer has Imported " + plugin_name)
 
 
 files = glob.glob("AltBots/modules/*.py")
@@ -32,7 +32,7 @@ for name in files:
         plugin_name = patt.stem
         load_plugins(plugin_name.replace(".py", ""))
 
-print("\n𝗗𝗮𝗿𝗸 𝘀𝗽𝗮𝗺 𝗯𝗼𝘁𝘀 𝐃𝐞𝐩𝐥𝐨𝐲𝐞𝐝 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 ⚡\nMy Master ---> @DARK_4ST")
+print("\nDESTROYER SPAM 𝗯𝗼𝘁𝘀 𝐃𝐞𝐩𝐥𝐨𝐲𝐞𝐝 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 ⚡\nMy Master ---> @Destroyer_of_worldd")
 
 
 async def main():
