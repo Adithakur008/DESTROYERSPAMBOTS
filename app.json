@@ -1,6 +1,6 @@
 {
-    "name": "DARK.",
-    "logo": "https://graph.org/file/b340af8f2ad1c4ee358c3.jpg",
+    "name": "DESTROYER.",
+    "logo": "https://graph.org/file/il_570xN.4390221728_tr0o.jpg",
     "keywords": [
         "telegram",
         "telethon",
@@ -8,7 +8,7 @@
         "PythonX",
         "SpamBots"
     ],
-    "repository": "https://github.com/Thedestroyerte/DARKSPAMBOTS",
+    "repository": "https://github.com/Thedestroyer/DESTROYERSPAMBOTS",
     "env": {
       "BOT_TOKEN": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
